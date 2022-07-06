@@ -1,0 +1,28 @@
+<nav class="app-nav-bar">
+  <ul class="nav nav-tabs container">
+    <li class="nav-item">
+      <a
+        class="nav-link"
+        [routerLinkActive]="['active', 'pretty']"
+        [routerLink]="['home']"
+        >Home</a
+      >
+    </li>
+    <li class="nav-item">
+      <a
+        class="nav-link active"
+        [routerLinkActive]="['active', 'pretty']"
+        [routerLink]="['courses']"
+        >Courses</a
+      >
+    </li>
+    <li class="nav-item">
+      <a
+        class="nav-link active"
+        [routerLinkActive]="['active', 'pretty']"
+        [routerLink]="['redux']"
+        >Redux Demo</a
+      >
+    </li>
+  </ul>
+</nav>
